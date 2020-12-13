@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "We are Ink and Metal \(indexPath.row)"
+        cell.textLabel?.text = "INK AND METAL \(indexPath.row+1)"
         return cell
     }
 
